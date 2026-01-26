@@ -46,7 +46,9 @@ int main() {
   // Decreasing Traingle Pattern
   // int n = 6; // n for number of rows
   // for (int i = 1; i < n; i++) {
-  //   for (int j = 1; j < n - i + 1; j++) // Here N is number of rows, i is present row in iteration , and  +1 is for pattern (see notebook for pattern)
+  //   for (int j = 1; j < n - i + 1; j++) // Here N is number of rows, i is
+  //   present row in iteration , and  +1 is for pattern (see notebook for
+  //   pattern)
   //   {
   //     cout << "*";
   //   }
@@ -54,45 +56,95 @@ int main() {
   // }
 
   // for (int i = 1; i < n; i++) {
-  //   for (int j = 1; j < n - i + 1; j++)  // Here N is number of rows, i is present row in iteration , and  +1 is for pattern (see notebook for pattern)
+  //   for (int j = 1; j < n - i + 1; j++)  // Here N is number of rows, i is
+  //   present row in iteration , and  +1 is for pattern (see notebook for
+  //   pattern)
   //   {
   //     cout << j;
   //   }
   //   cout << endl;
   // }
 
-
-  //Center Triangle
-  // int n=4;
-  // for(int i=0; i<n;i++)
-  // {
-  //   //space
-  //   for(int j=0; j<n-i-1; j++)
-  //   {
+  // Center Triangle
+  //  int n=4;
+  //  for(int i=0; i<n;i++)
+  //  {
+  //    //space
+  //    for(int j=0; j<n-i-1; j++)
+  //    {
+  //      cout << " ";
+  //    }
+  //    //star
+  //    for(int k=0; k<2*i+1; k++)
+  //    {
+  //      cout << "*";
+  //    }
+  //    //space
+  //    for(int j=0; j<n-i-1; j++)
+  //    {
+  //      cout << " ";
+  //    }
+  //    cout << endl;
+  //  }
+  
+  // Reverse Center Triangle
+  // int n = 5;
+  // for (int i = 0; i < n; i++) {
+  //   // leading spaces (increase each row)
+  //   for (int j = 0; j < i; j++)
   //     cout << " ";
-  //   }
-  //   //star
-  //   for(int k=0; k<2*i+1; k++)
-  //   {
+  //   // stars (decrease by 2 each row): 2*(n-i)-1
+  //   for (int k = 0; k < 2 * (n - i) - 1; k++)
   //     cout << "*";
-  //   }
-  //   //space
-  //   for(int j=0; j<n-i-1; j++)
-  //   {
-  //     cout << " ";
-  //   }
   //   cout << endl;
   // }
   
-  //Reverse Center Triangle
-  int n=5;
-  for (int i = 0; i < n; i++) {
-    // leading spaces (increase each row)
-    for (int j = 0; j < i; j++) cout << " ";
-    // stars (decrease by 2 each row): 2*(n-i)-1
-    for (int k = 0; k < 2 * (n - i) - 1; k++) cout << "*";
-    cout << endl;
-  }
-  
+  //Diamond Pattern
+  // int n=4;
+  //  for(int i=0; i<n;i++)
+  //  {
+  //    //space
+  //    for(int j=0; j<n-i-1; j++)
+  //    {
+  //      cout << " ";
+  //     }
+  //     //star
+  //     for(int k=0; k<2*i+1; k++)
+  //    {
+  //      cout << "*";
+  //    }
+  //    //space
+  //    for(int j=0; j<n-i-1; j++)
+  //    {
+  //      cout << " ";
+  //     }
+  //     cout << endl;
+  //   }
+    
+  //   for (int i = 0; i < n; i++) {
+  //     // leading spaces (increase each row)
+  //     for (int j = 0; j < i; j++)
+  //       cout << " ";
+  //     // stars (decrease by 2 each row): 2*(n-i)-1
+  //     for (int k = 0; k < 2 * (n - i) - 1; k++)
+  //       cout << "*";
+  //     cout << endl;
+  //   }
+    
+//Pattern 8 =>  Center Triangle Rotated 180 degrees
+//   int n=4;
+//   for(int i=0; i<=2*n-1;i++) 
+//   {
+//     int stars = i;
+//     if (i>=n) 
+//     {
+//       stars = 2*n - i;
+//     }
+//     for(int j=0; j<stars; j++)
+//     {
+//       cout << "*";
+//     }
+//     cout << endl;
+//   }
+// } 
   // End Of File
-}
