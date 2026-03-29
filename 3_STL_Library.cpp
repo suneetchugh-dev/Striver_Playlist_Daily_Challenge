@@ -161,8 +161,20 @@
 //    q.front();
 // }
 
+
+// void explainPQ()
+// {
+//    //In a priority queue, the largest element stays at the top 
+//    priority_queue<int> pq;
+//    pq.push(5);
+//    pq.push(2);
+//    pq.push(7);
+
+//    cout << pq.top();
+// }
+
 #include <bits/stdc++.h>
  using namespace std;
  int main() {
-   
+
  }
