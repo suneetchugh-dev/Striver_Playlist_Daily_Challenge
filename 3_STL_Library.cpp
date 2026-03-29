@@ -182,8 +182,29 @@
 //    st.erase(5);
 // }
 
+
+// void explainMap()
+// {
+//    map<int , int> mpp;
+//    mpp[1] = 2;
+//    mpp[2] = 3;
+//    mpp[3] = 4;
+//    mpp[4] = 5;
+
+//    mpp[1] = 6; // updates the value of 1 to 6
+//    mpp[5] = 5; // inserts 5,6
+
+//    auto it = mpp.find(3); // gives the iterator pointing to 3,6
+//    mpp.erase(3); // erases the key value pair of 3,6
+
+//    for(auto it = mpp.begin(); it != mpp.end(); it++)
+//    {
+//      cout << it->first << " " << it->second << endl;
+//    }  
+
+// }
 #include <bits/stdc++.h>
  using namespace std;
  int main() {
-   
+
  }
