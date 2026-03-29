@@ -151,6 +151,16 @@
 //  }
 
 
+// void explainQueue()
+// {
+//    queue <int> q;
+//    q.push(5);
+//    q.push(6);
+//    q.pop();
+//    q.back() +=5;
+//    q.front();
+// }
+
 #include <bits/stdc++.h>
  using namespace std;
  int main() {
