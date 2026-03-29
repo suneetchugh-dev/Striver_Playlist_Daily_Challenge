@@ -138,10 +138,21 @@
     // return 0;
  // }
 
+//  void explainStack()
+//  {
+//    stack<int> st;
+//    st.push(5);
+//    st.push(7);
+//    cout << st.top();
+//    cout << st.size();
+//    cout << st.empty();
+//    stack <int> s1,s2;
+//    s1.swap(s2);
+//  }
 
 
 #include <bits/stdc++.h>
  using namespace std;
  int main() {
-
+   
  }
