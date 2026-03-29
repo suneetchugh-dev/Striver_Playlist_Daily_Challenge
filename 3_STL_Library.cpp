@@ -173,8 +173,17 @@
 //    cout << pq.top();
 // }
 
+// void explainSet()
+// {
+//    set<int> st;
+//    st.insert(5)
+//    st.insert(5) //doesn't take duplicate values so only one 5 remain {5}
+//    auto it = st.find(5);
+//    st.erase(5);
+// }
+
 #include <bits/stdc++.h>
  using namespace std;
  int main() {
-
+   
  }
