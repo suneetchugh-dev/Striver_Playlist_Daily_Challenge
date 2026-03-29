@@ -218,9 +218,27 @@
 // //     cout << it->first << " " << it->second << endl;
 // //   }
 // }
+
+// void explainExtra()
+// {
+//    //to sort an array
+//    sort(a, a+n);
+
+
+// string s = "123";
+// sort(s.begin(), s.end());
+// do{
+//    cout << s << endl;
+// }
+
+// while(next_permutation(s.begin(),s.end()));
+// {
+//    max = *max_element(a,a+n);
+// }
+// }
+
 #include <bits/stdc++.h>
  using namespace std;
  int main() {
-
    return 0;
  }
