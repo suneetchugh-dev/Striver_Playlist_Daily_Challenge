@@ -203,8 +203,24 @@
 //    }  
 
 // }
+
+
+// void explainMultiMap()
+// {
+//   // multi map => it can store duplicate keys
+// //   multimap<int, int> mpp;
+// //   mpp.insert({1, 2});
+// //   mpp.insert({1, 3});
+// //   mpp.insert({2, 3});
+// //   mpp.insert({2, 4});
+
+// //   for (auto it = mpp.begin(); it != mpp.end(); it++) {
+// //     cout << it->first << " " << it->second << endl;
+// //   }
+// }
 #include <bits/stdc++.h>
  using namespace std;
  int main() {
 
+   return 0;
  }
