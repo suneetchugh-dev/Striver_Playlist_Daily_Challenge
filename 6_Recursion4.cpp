@@ -33,7 +33,7 @@
 // using namespace std;
 
 
-// f(int n)
+// int f(int n)
 // {
 //     if(n==0)
 //     {
@@ -49,6 +49,36 @@
 // {
 //     int n;
 //     cin >> n;
-//     f(n);
+//     cout << f(n);
+// }
+
+
+//task by striver
+
+//=> factorial of n
+
+// #include <iostream>
+// using namespace std;
+
+// int f(int n)
+// {
+//     if(n<0)
+//     {
+//         throw invalid_argument("Enter a valid number positive number");
+//     }
+//     if(n==0)
+//     {
+//         return 1;
+//     }
+//     else
+//     {
+//         return n * f(n-1);
+//     }
+// }
+
+// int main()
+// {
+//     int n;
+//     cin >> n;
 //     cout << f(n);
 // }
